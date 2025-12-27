@@ -1,7 +1,13 @@
- -- STEP 3: EXPLORATORY DATA ANALYSIS (EDA)
+/* =========================================================
+   STEP 3: EXPLORATORY DATA ANALYSIS (EDA)
+   Project: Healthcare Readmission Analytics
+   Purpose:
+   - Understand readmission patterns
+   - Identify high-risk patient segments
+   ========================================================= */
 
 /* ---------------------------------------------------------
-   3.1 OVERALL DATA SNAPSHOT
+   3.1 OVERALL KPI 
    --------------------------------------------------------- */
 
 -- Total number of patient encounters
