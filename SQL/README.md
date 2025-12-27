@@ -40,10 +40,9 @@ healthcare-readmission-sql/
 ├── sql/
 │   ├── 01_schema.sql              -- Table design
 │   ├── 02_data_validation.sql     -- Data quality checks
-│   ├── 03_data_cleaning.sql       -- SQL-based cleaning
-│   ├── 04_eda.sql                 -- Exploratory Data Analysis
-│   ├── 05_business_metrics.sql    -- Healthcare KPIs
-│   ├── 06_advanced_analysis.sql   -- Risk scoring & segmentation
+│   ├── 03_eda.sql                 -- Exploratory Data Analysis
+│   ├── 04_business_metrics.sql    -- Healthcare KPIs
+│   ├── 05_advanced_analysis.sql   -- Risk scoring & segmentation
 │
 ├── insights/
 │   ├── key_findings.md
