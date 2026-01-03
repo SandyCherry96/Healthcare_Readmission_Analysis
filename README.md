@@ -79,10 +79,11 @@ Multi-class (<30, >30, NO)
 Binary outcome for risk analysis
 
 Defined stakeholders: hospital management, care coordinators, clinicians
+---
 
 2️⃣ Excel-Based Data Cleaning & Feature Engineering
 
-Initial preprocessing and feature creation were performed in Microsoft Excel, simulating real-world analyst workflows.
+Initial preprocessing and feature creation were performed in Excel.
 
 Features Created:
 
@@ -112,9 +113,9 @@ Improves business interpretability
 
 Enables early validation of category logic
 
-Reflects how many healthcare teams prepare data before analysis
-
 The Excel-processed dataset was then exported for Python and SQL analysis.
+
+---
 
 3️⃣ Python-Based Exploratory Data Analysis (EDA)
 
@@ -162,6 +163,8 @@ Admission type × Length of stay × Readmission
 
 Prior utilization × Discharge outcome
 
+---
+
 4️⃣ Feature Engineering in Python
 
 Additional analytical features were engineered:
@@ -175,6 +178,8 @@ Prior utilization indicators
 Diagnosis category consolidation
 
 Purpose: Improve interpretability and prepare data for SQL metrics and dashboards.
+
+---
 
 5️⃣ SQL-Based Business Metrics & Analysis
 
@@ -198,6 +203,8 @@ Conditional aggregation
 
 Percentile analysis
 
+---
+
 6️⃣ Dashboards (Power BI / Excel)
 
 Interactive dashboards were built to visualize:
@@ -212,6 +219,8 @@ High-risk patient segments
 
 Dashboards are designed for non-technical stakeholders.
 
+--- 
+
 📈 Key Insights
 
 Readmission risk increases significantly for patients aged 50–80
@@ -221,6 +230,7 @@ Emergency admissions show the highest 30-day readmission rates
 Longer hospital stays correlate with higher clinical complexity
 
 Prior inpatient visits strongly predict early readmission
+--- 
 
 💡 Business Recommendations
 
@@ -231,6 +241,7 @@ Prioritize follow-ups for patients with prior inpatient visits
 Improve medication reconciliation for high-complexity cases
 
 Use readmission risk indicators to guide care coordination
+---
 
 ⚠️ Limitations & Assumptions
 
@@ -241,6 +252,7 @@ Simplified diagnosis grouping
 Unobserved clinical severity factors
 
 Results depend on historical patterns
+---
 
 🚀 Future Enhancements
 
