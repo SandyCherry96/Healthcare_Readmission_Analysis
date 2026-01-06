@@ -67,19 +67,32 @@ healthcare-readmission-analysis/
 │   └── recommendations.md
 ```
 
-🔄 End-to-End Workflow
+## 🔄 End-to-End Workflow
 
-1️⃣ Problem Understanding
+### 1️⃣ Problem Understanding
 
 Focused on 30-day readmissions as a key healthcare quality metric
 
-Treated readmission as both:
+Readmission Definition:
 
-Multi-class (<30, >30, NO)
+- Treated readmission as:
 
-Binary outcome for risk analysis
+- Multi-class outcome: <30, >30, NO
 
-Defined stakeholders: hospital management, care coordinators, clinicians
+- Binary outcome (for risk analysis):
+
+- 1 → Readmitted within 30 days
+
+- 0 → Not readmitted within 30 days
+
+Stakeholders Identified:
+
+- Hospital management
+
+- Care coordinators
+
+- Clinicians
+
 ---
 
 2️⃣ Excel-Based Data Cleaning & Feature Engineering
