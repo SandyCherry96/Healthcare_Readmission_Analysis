@@ -69,6 +69,11 @@ healthcare-readmission-analysis/
 
 ## 🔄 End-to-End Workflow
 
+#### 🌐 Project Workflow 
+``` Excel  →  Python  →  SQL  →  Power BI ```
+
+--- 
+
 ### 1️⃣ Problem Understanding
 
 Focused on 30-day readmissions as a key healthcare quality metric
