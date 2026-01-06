@@ -4,7 +4,7 @@
 ---
 
 ## 📌 Project Overview
-Hospital readmissions—especially within 30 days—are costly and often indicate gaps in discharge planning, care coordination, or post-hospital follow-up.
+Hospital readmissions—especially within 30 days are costly and often indicate gaps in discharge planning, care coordination, or post-hospital follow-up.
 
 This project delivers an **end-to-end healthcare analytics solution** to:
 - Analyze **30-day and >30-day readmissions**
